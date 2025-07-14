@@ -1,0 +1,55 @@
+.foot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px; 
+    align-items: center;
+}
+.foot-l{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.foot-l p {
+    color: #383838;
+    font-weight: 800;
+    font-size: 40px;
+}
+.foot-link li{
+    cursor: pointer;
+
+}
+.foot-link {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 20px;
+    color: #252525;
+}
+.socialicon {
+    gap: 20px;
+    display: flex;
+}
+.foot-cont {
+    padding: 10px;
+    padding-bottom: 6px;
+background: #fbfbfb;
+border: 1px solid #fbfbfb;
+}
+.copyr {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+margin-bottom: 40px;
+font-size: 20px;
+color: #1a1a1a;
+    width: 100%;
+flex-direction: column;
+}
+.copyr hr{
+    border: none;
+    border-radius: 10px;
+    height: 4px;
+    background: #c7c7c7;
+    width: 80%;
+}

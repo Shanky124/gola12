@@ -1,0 +1,27 @@
+.nwcoll {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 80vh;
+    background: linear-gradient(180deg,rgb(236, 204, 204),rgb(222, 235, 238) 60%);
+margin-bottom: 100px;
+}
+.nwcoll h1{
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+.nwcoll hr{
+    width: 300px;
+    height: 6px;
+    border-radius: 10px;
+    background: cadetblue;
+}
+.coll{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 50px;
+    gap: 29px;
+}

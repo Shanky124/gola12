@@ -1,0 +1,27 @@
+.shop-ca {
+    display: block;
+margin: 30px auto;
+width: 80%;
+}
+.sort{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 180px;
+    
+}
+
+.sort p span{
+    font-weight: 700;
+    font-size: 20px;
+}
+.s-pro{
+    display: grid;
+    row-gap: 80px;
+margin: 60px 170px;
+grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+.sort p{
+    font-weight: 550;
+    font-size: 20px;
+}

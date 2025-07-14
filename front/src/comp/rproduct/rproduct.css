@@ -1,0 +1,29 @@
+.rp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+}
+.rp h1{
+    color: #171717;
+    font-size: 40px;
+    font-weight: 600;
+}
+.rp hr{
+    height: 6px;
+    width: 290px;
+    border-radius:10px ;
+    background: #252525;
+}
+.rpitm {
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+
+
