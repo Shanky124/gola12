@@ -1,0 +1,47 @@
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    padding: 10px;
+    margin: 0;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /*  Any div inside comp/ will be targeted */
+  div[class*="foot"],
+  div[class*="nav"],
+  div[class*="prod"],
+  div[class*="hero"],
+  div[class*="bred"],
+  div[class*="cont"],
+  div[class*="card"],
+  div[class*="main"],
+  div[class*="nwcol"],
+  div[class*="CSS"],
+  div[class*="khabar"],
+  div[class*="dscription"],
+  div[class*="cartitm"]
+
+  {
+    width: 100% !important;
+    flex-direction: column !important;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h1, h2, h3, p {
+    font-size: 90%;
+  }
+
+  .btn, .button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

@@ -9,7 +9,7 @@ import Footr from "./comp/footr/footr.jsx";
 import manbannr from "./assets/manbannr.jpg"
 import kids_banner from "./assets/kids_banner.jpg"
 import women_banner from "./assets/women_banner.avif"
-
+import "./responsive.css";
 
 
 
