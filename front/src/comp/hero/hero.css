@@ -3,6 +3,16 @@
     height: 100vh;
    background: linear-gradient(180deg,rgb(222, 235, 238),rgb(236, 204, 204) 60%); 
 }
+
+
+
+@media  (max-width: 768px) {
+    .hero{flex-direction: column;
+    padding: 10px;
+text-align: center;}
+}
+
+
 .h-lft {
     display: flex;
     flex-direction: column;

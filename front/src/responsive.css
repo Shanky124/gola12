@@ -1,5 +1,5 @@
 
-@media (max-width: 768px) {
+ /*@media (max-width: 768px) {
   * {
     box-sizing: border-box;
   }
@@ -14,7 +14,7 @@
     height: auto;
   }
 
-  /*  Any div inside comp/ will be targeted */
+  /*  Any div inside comp/ will be targeted 
   div[class*="foot"],
   div[class*="nav"],
   div[class*="prod"],
