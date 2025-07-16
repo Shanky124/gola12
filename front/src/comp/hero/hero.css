@@ -6,7 +6,7 @@
 
 
 
-@media  (max-width: 768px) {
+@media  (max-width: 750px) {
     .hero{flex-direction: column;
     padding: 10px;
 text-align: center;}

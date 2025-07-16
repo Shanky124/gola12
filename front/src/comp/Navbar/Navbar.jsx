@@ -25,7 +25,7 @@ const {getTotalCartItems}=useContext(Shopc)
 <div className='Nav-logo'>
  <Link to="/loginsignup"><button >Login</button></Link>
 <br></br><br></br>
-  <Link to="/cart"> <img src={cart} alt="" height="50px"></img></Link>
+  <Link to="/cart"> <img src={cart} alt="" ></img></Link>
 
 
 <div className='nav-cartcount'>{getTotalCartItems()}</div>
